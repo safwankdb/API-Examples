@@ -1,7 +1,7 @@
 import requests
 import html2text
 
-h = html2text.HTML2Text(	)
+h = html2text.HTML2Text()
 key = open('google-api-key', 'r')
 apiKey = key.read()
 
